@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install nfs-common -y
+sudo mkdir -p /mnt/efs
+sudo mount -t nfs4 fs-0089178069181b9e5.efs.eu-north-1.amazonaws.com:/ /mnt/efs
+df -h
+
+sudo yum install nfs-utils -y
+sudo mkdir -p /mnt/efs
+sudo mount -t nfs4 fs-0089178069181b9e5.efs.eu-north-1.amazonaws.com:/ /mnt/efs
+df -h
