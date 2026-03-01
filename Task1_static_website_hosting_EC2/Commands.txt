@@ -1,0 +1,4 @@
+sudo apt update
+sudo apt install nginx -y
+cd /var/www/html
+sudo nano index.html
